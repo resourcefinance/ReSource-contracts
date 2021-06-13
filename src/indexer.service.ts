@@ -1,0 +1,1 @@
+// given a receipt index/store it in db

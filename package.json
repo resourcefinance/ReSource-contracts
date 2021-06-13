@@ -1,0 +1,58 @@
+{
+  "name": "resource-ledger",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Duke <dukeofjones@gmail.com>",
+  "homepage": "https://github.com/ReSource-Network/resource-api#readme",
+  "license": "MIT",
+  "main": "lib/resource-ledger.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.yarnpkg.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReSource-Network/resource-api.git"
+  },
+  "scripts": {
+    "test": "NODE_ENV=testing jest --runInBand --silent=false"
+  },
+  "bugs": {
+    "url": "https://github.com/ReSource-Network/resource-api/issues"
+  },
+  "devDependencies": {
+    "@celo-tools/celo-ethers-wrapper": "^0.0.5",
+    "@ethereum-waffle/jest": "^3.2.2",
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@openzeppelin/contracts": "^4.1.0",
+    "@openzeppelin/contracts-upgradeable": "^4.1.0",
+    "@openzeppelin/hardhat-upgrades": "^1.8.2",
+    "@typechain/ethers-v5": "^7.0.1",
+    "@typechain/hardhat": "^2.0.2",
+    "@types/jest": "^26.0.23",
+    "@types/mocha": "^8.2.2",
+    "@types/node": "^15.12.2",
+    "@types/prettier": "^2.3.0",
+    "eslint": "^7.28.0",
+    "eslint-config-prettier": "^8.3.0",
+    "ethereum-waffle": "^3.3.0",
+    "ethers": "^5.3.1",
+    "hardhat": "^2.3.3",
+    "hardhat-jest-plugin": "^0.0.4",
+    "hardhat-typechain": "^0.3.5",
+    "jest": "^27.0.4",
+    "openzeppelin-solidity": "^4.1.0",
+    "ts-jest": "^27.0.3",
+    "ts-node": "^10.0.0",
+    "ts-node-dev": "^1.1.6",
+    "typechain": "^5.0.0",
+    "typescript": "^4.3.2"
+  }
+}

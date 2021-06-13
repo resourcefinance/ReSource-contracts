@@ -1,0 +1,1 @@
+// staking wrapper for businesses

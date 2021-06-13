@@ -1,0 +1,36 @@
+
+# dependencies
+node_modules
+/.pnp
+.pnp.js
+
+# logs
+logs
+
+# testing
+/coverage
+
+# contracts
+cache/
+artifacts/
+typechain/
+src/services/ledger/types/
+
+# production
+/dist
+dist/
+src/generated
+
+
+
+# misc
+.eslintcache
+.DS_Store
+.env
+.env.*
+.vscode
+.idea
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
